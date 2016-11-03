@@ -1,28 +1,24 @@
 {
-  "name" : "{{package-name}}", 
-  "version" : "0.0.1",
-  "description" :"",
-  "homepage" : [
-    ""
-  ],
-  "repository" : {
-    "type" : "git", 
-    "url" : ""
-  },
-  "keywords" : [],
-  "author" : "{{author}} <{{email}}>",
-  "licenses" : [ {
-    "type" : "MIT",
-    "url" : ""
-  }],
-  "dependencies" : {},
-   "devDependencies":{},
-  "main" : "./lib/{{package-name}}.js",
-  "scripts": {
-    "test": "mocha test"
-  },
+  "name": "{{package-name}}",
+  "version": "0.0.1",
+  "author": "{{author}} <{{email}}>",
   "bin": {
     "{{package-name}}": "./bin/{{package-name}}"
   },
-  "preferGlobal": true
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": [
+    ""
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/{{package-name}}.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
 }
